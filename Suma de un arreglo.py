@@ -1,14 +1,19 @@
-  
+
+print("---------------------- SUMA DE UN ARREGLO ----------------------")
 print(" ")
-print("---------- SUMA DE UN ARREGLO ----------")
+
+suma = 0
+arreglo = []
+for i in range (1, 1001) :
+    arreglo.append(i)
+    suma = suma + i
+    
+print(f"El arreglo es {arreglo}")
 print(" ")
-
-x=1
-suma=0
-while x<=3:
-    suma = suma + x
-    x+=1
-print("La suma es: ", suma)
+print(f"La suma del arreglo es: {suma}")
 
 
 
+
+    
+    
